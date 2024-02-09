@@ -3,3 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  background: rgb(30, 79, 72);
+  color: #fff;
+  margin: 2.5rem;
+}
