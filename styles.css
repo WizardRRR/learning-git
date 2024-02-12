@@ -1,19 +1,39 @@
+:root {
+  --background: #fff;
+  --primary-text: #171717;
+  --secondary-text: #666666;
+}
+
 body {
-  background: rgb(30, 79, 72);
-  color: #fff;
+  background: var(--background);
+  color: var(--primary-text);
   margin: 2.5rem;
 }
 
 h1 {
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   text-decoration: underline;
   text-align: center;
 }
 
+p {
+  text-align: center;
+  color: var(--secondary-text);
+}
+
 h2 {
-  margin:15px 0px;
-  font-weight: 600;
+  margin: 15px 0px;
+  margin-top: 30px;
+  font-weight: 700;
   font-size: 16px;
-  text-decoration: underline;
+}
+
+.container {
+  width: fit-content;
+  margin: auto;
+}
+
+ol li {
+  color: var(--secondary-text);
 }
