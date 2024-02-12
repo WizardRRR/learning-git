@@ -15,5 +15,33 @@ h2 {
   margin:15px 0px;
   font-weight: 600;
   font-size: 16px;
-  text-decoration: underline;
+}
+
+.container {
+  width: fit-content;
+  margin: auto;
+}
+
+ol li {
+  color: var(--secondary-text);
+}
+
+img {
+  object-fit: cover;
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.group {
+  object-fit: contain;
+  width: fit-content;
+}
+
+.container-images{
+  display: flex;
+  gap: 50px;
+  justify-content: center   ;
 }
